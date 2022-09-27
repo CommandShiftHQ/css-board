@@ -87,7 +87,15 @@ h3 {
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
-/* Put Selector post-it styles here! ↓ */
+#George {
+  background-color: #E0EA87;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 4deg;
+}
+#George H3 {
+  font-weight: bold;
+}
 
 /***************************************************/
 /* PROPERTIES */
