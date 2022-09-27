@@ -87,6 +87,7 @@ h3 {
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
+
 #George {
   background-color: #E0EA87;
   height: 200px;
@@ -95,8 +96,22 @@ h3 {
 }
 #George H3 {
   font-weight: bold;
+/* Put Selector post-it styles here! ↓ */
+#JoshBamford {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #E0EA87;
+
 }
 
+.ID {
+  font-weight: bold;
+  rotate: -5deg;
+}
+
+.post-it-info {
+  rotate: -5deg;
+}
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
