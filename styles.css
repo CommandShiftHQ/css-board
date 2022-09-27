@@ -87,17 +87,67 @@ h3 {
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
+
+#George {
+  background-color: #E0EA87;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 4deg;
+}
+#George H3 {
+  font-weight: bold;
 /* Put Selector post-it styles here! ↓ */
+#JoshBamford {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #E0EA87;
+
+  rotate: -5deg;
+  
+
+}
+
+.ID {
+  font-weight: bold;
+  rotate: -5deg;
+}
+
+
+#carla-slattery {
+  background-color: #e0ea87;
+  height: 200px;
+  width: 200px;
+  transform: rotate(-2.5deg);
+}
+
+#carla-slattery h3 {
+  font-weight: bold;
+}
+
+
+.post-it-info {
+  rotate: -5deg;
+}
 
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+#hj-kang {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #FF6F91;
+  transform: rotate(10deg);
+}
 
+#hj-kang > h3 {
+  font-weight: bold;
+}
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+
 .post-it#daniel-hancox h3 {
   font-weight: bold;
 }
@@ -112,8 +162,12 @@ h3 {
   font-size: 25px
 }
 
-
-
+.post-it#oliveroquist {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  transform: rotate(15deg);
+  background-color: #0089BA
+}
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
