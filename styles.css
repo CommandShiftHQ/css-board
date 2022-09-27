@@ -116,7 +116,16 @@ h3 {
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+#hj-kang {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #FF6F91;
+  transform: rotate(10deg);
+}
 
+#hj-kang > h3 {
+  font-weight: bold;
+}
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
