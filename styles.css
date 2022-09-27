@@ -94,6 +94,32 @@ h3 {
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
+/* Put Selector post-it styles here! ↓ */
+#JoshBamford {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #E0EA87;
+}
+
+.ID {
+  font-weight: bold;
+  rotate: -5deg;
+}
+
+
+#paul-spencer {
+  width: 200px;
+  aspect-ratio: 1/1;  
+}
+#paul-spencer {
+  background-color: #E0EA87;
+  transform:rotate(-6deg)
+}
+
+#paul-spencer h3 {
+  font-weight: bold;
+}
+
 
 #George {
   background-color: #E0EA87;
@@ -196,6 +222,22 @@ h3 {
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
 
+#jamie-c
+{
+  aspect-ratio: 1 / 1;
+  background-color: #0089BA;
+  height: 200px;
+  width: 200px;
+  transform: rotate(-4deg);
+  font-size:14.5px;
+}
+
+#jamie-c > h3
+{
+  font-weight: bold;
+}
+
+
 .post-it#daniel-hancox h3 {
   font-weight: bold;
 }
@@ -216,6 +258,7 @@ h3 {
   transform: rotate(15deg);
   background-color: #0089BA
 }
+
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
