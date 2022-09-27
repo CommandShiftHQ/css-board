@@ -98,7 +98,7 @@ h3 {
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
-#oliveroquist {
+.post-it#oliveroquist {
   aspect-ratio: 1 / 1;
   height: 200px;
   transform: rotate(15deg);
