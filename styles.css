@@ -81,18 +81,69 @@ h3 {
 }
 
 .dashboard--layouts h2 {
-  transform: rotate(-1.5deg);
+  transform: rotate(1.5deg);
 }
 
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
+
+#George {
+  background-color: #E0EA87;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 4deg;
+}
+#George H3 {
+  font-weight: bold;
 /* Put Selector post-it styles here! ↓ */
+#JoshBamford {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #E0EA87;
+
+  rotate: -5deg;
+  
+
+}
+
+.ID {
+  font-weight: bold;
+  rotate: -5deg;
+}
+
+
+#carla-slattery {
+  background-color: #e0ea87;
+  height: 200px;
+  width: 200px;
+  transform: rotate(-2.5deg);
+}
+
+#carla-slattery h3 {
+  font-weight: bold;
+}
+
+
+.post-it-info {
+  rotate: -5deg;
+}
 
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+#hj-kang {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #FF6F91;
+  transform: rotate(10deg);
+}
+
+#hj-kang > h3 {
+  font-weight: bold;
+}
+
 
 .post-it#lukas-buzius h3 {
   font-weight: bolder;
@@ -106,7 +157,6 @@ h3 {
   top: 450px;
   right: 650px;
   transform: rotate(-9deg);
-
 }
 
 /***************************************************/
@@ -114,6 +164,26 @@ h3 {
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
 
+.post-it#daniel-hancox h3 {
+  font-weight: bold;
+}
+#daniel-hancox  {
+  aspect-ratio: 1/1;
+  height: 200px;
+  width: 200px;
+  background-color: #0089BA;
+  transform: rotate(7deg);
+  box-shadow: -5px 5px 30px 5px #292929;
+  outline: 1px solid black;
+  font-size: 25px
+}
+
+.post-it#oliveroquist {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  transform: rotate(15deg);
+  background-color: #0089BA
+}
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
