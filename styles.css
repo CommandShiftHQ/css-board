@@ -108,8 +108,16 @@ transform: rotate(-2.5deg);
   transform: rotate(7deg);
 }
 
-
-
+#matthew-murray {
+  height: 200px;
+  background-color: #E0EA87;
+  aspect-ratio: 1/1;
+  rotate: -9deg;
+  
+}
+#matthew-murray H3 { 
+  font-weight: bold;
+}
 
 
 /***************************************************/
@@ -125,8 +133,15 @@ transform: rotate(-2.5deg);
 }
 
 
-
-
+#matthew-murray {
+  height: 200px;
+  background-color: #FF6F91;
+  aspect-ratio: 1/1;
+  rotate: -4deg;
+}
+#matthew-murray H3 { 
+  font-weight: bold;
+}
 
 #deryn {
   background-color: #FF6F91;
@@ -162,8 +177,17 @@ transform: rotate(-2.5deg);
 /* Put Layout post-it styles here! ↓ */
 
 
+#matthew-murray {
+  height: 200px;
+  background-color: #0089BA;
+  aspect-ratio: 1/1;
+  rotate: -4deg;
+}
 
 
+#matthew-murray H3 { 
+  font-weight: bold;
+}
 
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
