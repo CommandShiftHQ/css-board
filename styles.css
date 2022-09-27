@@ -94,6 +94,21 @@ h3 {
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+.post-it#lukas-buzius h3 {
+  font-weight: bolder;
+}
+
+.post-it#lukas-buzius {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #ff6f91;
+  position:absolute;
+  top: 450px;
+  right: 650px;
+  transform: rotate(-9deg);
+
+}
+
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
