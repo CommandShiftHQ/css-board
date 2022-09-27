@@ -91,6 +91,8 @@ h3 {
   transform: rotate(1.5deg);
 }
 
+
+
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
@@ -129,6 +131,19 @@ h3 {
 }
 #George H3 {
   font-weight: bold;
+
+/* Put Selector post-it styles here! ↓ */
+
+#yan-fung {
+  height: 200px;
+  width: 200px;
+  background-color: #FF6F91;
+  transform: rotate(12deg) ;
+  list-style: none;
+}
+
+#yan-fung h3 {
+  font-weight: bold;
 }
 
 #JoshBamford {
@@ -163,6 +178,7 @@ h3 {
   rotate: -5deg;
 }
 
+
 #jamesgoodman {
   aspect-ratio: 1;
   height: 200px;
@@ -173,6 +189,8 @@ h3 {
 #jamesgoodman h3 {
   font-weight: bold;
 }
+
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
@@ -224,6 +242,7 @@ h3 {
   right: 650px;
   transform: rotate(-9deg);
 }
+
 
 /***************************************************/
 /* LAYOUTS */
