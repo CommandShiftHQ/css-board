@@ -88,7 +88,13 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+#Baha-A {
+  background-color: #E0EA87;
+  height: 200px;
+  aspect-ratio: 1/1;
+  transform: rotate(-5deg)
 
+}
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
