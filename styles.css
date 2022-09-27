@@ -22,6 +22,9 @@ h3 {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+}
+
+#james-sample {
   aspect-ratio: 1 / 1;
   height: 200px;
   background-color: #FF6F91;
