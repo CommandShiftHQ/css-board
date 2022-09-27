@@ -178,6 +178,15 @@ h3 {
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+#Rayhan {
+  aspect-ratio: 1/1;
+  background-color: #FF6F91;
+  height: 200px;
+  transform: rotate(7deg);
+}
+#Rayhan h3 {
+  font-weight: bold ;
+
 #carlos-marfil {
   aspect-ratio: 1/1;
   height: 200px;
@@ -203,11 +212,11 @@ h3 {
 }
 
 
-.post-it#lukas-buzius h3 {
+#lukas-buzius h3 {
   font-weight: bolder;
 }
 
-.post-it#lukas-buzius {
+#lukas-buzius {
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #ff6f91;
