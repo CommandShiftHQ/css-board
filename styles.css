@@ -124,6 +124,22 @@ h3 {
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
 
+#jamie-c
+{
+  aspect-ratio: 1 / 1;
+  background-color: #0089BA;
+  height: 200px;
+  width: 200px;
+  transform: rotate(-4deg);
+  font-size:14.5px;
+}
+
+#jamie-c > h3
+{
+  font-weight: bold;
+}
+
+
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
