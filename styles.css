@@ -88,11 +88,36 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+#JoshBamford {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #E0EA87;
+}
 
+.ID {
+  font-weight: bold;
+  rotate: -5deg;
+}
+
+.post-it-info {
+  rotate: -5deg;
+}
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+#carlos-marfil {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #FF6F91;
+  transform: rotate(4.5deg);
+}
+
+#carlos-marfil h3 {
+  font-weight:bold;
+  align-self: center;
+  padding-bottom:15%;
+}
 
 /***************************************************/
 /* LAYOUTS */
@@ -111,6 +136,22 @@ h3 {
   font-weight:bold;
 }
 
+
+
+#jamie-c
+{
+  aspect-ratio: 1 / 1;
+  background-color: #0089BA;
+  height: 200px;
+  width: 200px;
+  transform: rotate(-4deg);
+  font-size:14.5px;
+}
+
+#jamie-c > h3
+{
+  font-weight: bold;
+}
 
 
 /***************************************************/
