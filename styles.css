@@ -13,18 +13,14 @@
 h3 {
   font-weight: bold;
   margin-bottom: 4px;
-  font-weight: bold;
 }
 
 .post-it {
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
-  width: 300px;
   padding: 10px;
   margin-bottom: 20px;
-  background-color: #0089ba
-
 }
 
 #james-sample {
@@ -83,7 +79,7 @@ h3 {
 }
 
 .dashboard--selectors h2 {
-transform: rotate(-2.5deg);
+  transform: rotate(-2.5deg);
 }
 
 
@@ -94,8 +90,6 @@ transform: rotate(-2.5deg);
 .dashboard--layouts h2 {
   transform: rotate(1.5deg);
 }
-
-
 
 /***************************************************/
 /* SELECTORS */
@@ -108,25 +102,22 @@ transform: rotate(-2.5deg);
   aspect-ratio: 1/1;
   transform: rotate(-5deg)
 }
+
 #JoshBamford {
   aspect-ratio: 1;
   height: 200px;
   background-color: #E0EA87;
 }
 
-.ID {
-  font-weight: bold;
-  rotate: -5deg;
-}
-
 
 #paul-spencer {
   width: 200px;
-  aspect-ratio: 1/1;  
+  aspect-ratio: 1/1;
 }
+
 #paul-spencer {
   background-color: #E0EA87;
-  transform:rotate(-6deg)
+  transform: rotate(-6deg)
 }
 
 #paul-spencer h3 {
@@ -140,38 +131,19 @@ transform: rotate(-2.5deg);
   aspect-ratio: 1/1;
   rotate: 4deg;
 }
+
 #George H3 {
   font-weight: bold;
 }
+
 /* Put Selector post-it styles here! ↓ */
-
-#yan-fung {
-  height: 200px;
-  width: 200px;
-  background-color: #FF6F91;
-  transform: rotate(12deg) ;
-  list-style: none;
-}
-
-#yan-fung h3 {
-  font-weight: bold;
-}
 
 #JoshBamford {
   aspect-ratio: 1;
   height: 200px;
   background-color: #E0EA87;
-
-  rotate: -5deg;
-  
-
-}
-
-.ID {
-  font-weight: bold;
   rotate: -5deg;
 }
-
 
 #carla-slattery {
   background-color: #e0ea87;
@@ -184,19 +156,14 @@ transform: rotate(-2.5deg);
   font-weight: bold;
 }
 
-
-.post-it-info {
-  rotate: -5deg;
-}
-
-
 #jamesgoodman {
   aspect-ratio: 1;
   height: 200px;
   width: 200px;
   background-color: #E0EA87;
-  rotate: -5deg; 
+  rotate: -5deg;
 }
+
 #jamesgoodman h3 {
   font-weight: bold;
 }
@@ -206,12 +173,13 @@ transform: rotate(-2.5deg);
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
-#Matthew{
-  background-color: #E0EA87;
+#Matthew {
+  background-color: #FF6F91;
   height: 200px;
   aspect-ratio: 1/1;
   rotate: -8deg;
 }
+
 #Matthew H3 {
   font-weight: bold;
 }
@@ -222,9 +190,11 @@ transform: rotate(-2.5deg);
   height: 200px;
   transform: rotate(7deg);
 }
+
 #Rayhan h3 {
-  font-weight: bold ;
+  font-weight: bold;
 }
+
 #carlos-marfil {
   aspect-ratio: 1/1;
   height: 200px;
@@ -233,9 +203,9 @@ transform: rotate(-2.5deg);
 }
 
 #carlos-marfil h3 {
-  font-weight:bold;
+  font-weight: bold;
   align-self: center;
-  padding-bottom:14%;
+  padding-bottom: 14%;
 }
 
 #hj-kang {
@@ -245,7 +215,7 @@ transform: rotate(-2.5deg);
   transform: rotate(10deg);
 }
 
-#hj-kang > h3 {
+#hj-kang>h3 {
   font-weight: bold;
 }
 
@@ -272,37 +242,35 @@ transform: rotate(-2.5deg);
   aspect-ratio: 1 / 1;
   height: 200px;
   width: 200px;
-  background-color:#0089BA;
+  background-color: #0089BA;
   transform: rotate(-4deg);
 
 }
-#harrylomas > h3
-{
-  font-weight:bold;
+
+#harrylomas>h3 {
+  font-weight: bold;
 }
 
 
 
-#jamie-c
-{
+#jamie-c {
   aspect-ratio: 1 / 1;
   background-color: #0089BA;
   height: 200px;
   width: 200px;
   transform: rotate(-4deg);
-  font-size:14.5px;
+  font-size: 14.5px;
 }
 
-#jamie-c > h3
-{
+#jamie-c>h3 {
   font-weight: bold;
 }
-
 
 .post-it#daniel-hancox h3 {
   font-weight: bold;
 }
-#daniel-hancox  {
+
+#daniel-hancox {
   aspect-ratio: 1/1;
   height: 200px;
   width: 200px;
@@ -318,6 +286,18 @@ transform: rotate(-2.5deg);
   height: 200px;
   transform: rotate(15deg);
   background-color: #0089BA
+}
+
+#yan-fung {
+  height: 200px;
+  width: 200px;
+  background-color: #0089BA;
+  transform: rotate(12deg);
+  list-style: none;
+}
+
+#yan-fung h3 {
+  font-weight: bold;
 }
 
 /***************************************************/
