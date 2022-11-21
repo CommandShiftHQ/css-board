@@ -90,7 +90,7 @@ h3 {
 /* Put Selector post-it styles here! ↓ */
 #Ernesto-Angustia
 {
-  width:200px;
+  aspect-ratio: 1/1;
   height: 200px;
   background-color: #E0EA87;
   rotate: 10deg;
