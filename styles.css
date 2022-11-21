@@ -99,12 +99,11 @@ background-color:#E0EA87;
 h3 {
   font-weight: bold;
 }
-=======
 .post-it {
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #E0EA87;
-  rotate: -10deg;
+  rotate: -10deg;)
 
 /***************************************************/
 /* PROPERTIES */
@@ -116,7 +115,6 @@ h3 {
   height: 200px;
   background-color: #FF6F91;
 }
-
 
 #lewis-smith {
   rotate: -4deg;
@@ -134,9 +132,6 @@ h3 {
 
 #Rob-B {
   background-color: #FF6F91;
-}
-
-
   aspect-ratio: 1 / 1;
   height: 200px;
   transform: rotate(-5deg);
