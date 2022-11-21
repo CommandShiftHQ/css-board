@@ -22,10 +22,7 @@ h3 {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
-  background-color: #0089BA;
-  height: 200px;
-  padding-top: 100%;
-}
+  }
 
 .dashboard-frame {
   background-image: url("wood-texture.jpeg");
@@ -96,7 +93,15 @@ h3 {
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
-
+#joseph-redmond {
+  transform:rotate(8deg);
+  background-color: #0089BA;
+  height: 200px;
+  padding-top: 100%;
+}
+#joseph-redmond h2 {
+  font-weight: bold;
+}
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
