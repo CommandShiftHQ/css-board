@@ -24,6 +24,11 @@ h3 {
   margin-bottom: 20px;
 }
 
+#rachmann-joubert{
+  height: 200px;
+  background-color: #FF6F91;
+}
+
 .dashboard-frame {
   background-image: url("wood-texture.jpeg");
   height: 100vh;
