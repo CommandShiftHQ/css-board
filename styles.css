@@ -100,7 +100,11 @@ h3 {
 /* Put Layout post-it styles here! ↓ */
 
 #tarndeep {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   width: 200px;
+  aspect-ratio: 1/1;
   height: 200px;
   border: 2px turquoise solid;
   background-color: #0089ba;
