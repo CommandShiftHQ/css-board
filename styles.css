@@ -88,6 +88,15 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+.post-it{
+  
+  height: 200px;
+  aspect-ratio: 1/1;
+  background-color: #e0ea97;
+  rotate: -7deg;
+  text-align: center;
+   
+}
 
 /***************************************************/
 /* PROPERTIES */
@@ -130,3 +139,4 @@ h3 {
     grid-area: Layouts;
   }
 }
+
