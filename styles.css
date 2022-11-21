@@ -17,11 +17,18 @@ h3 {
 }
 
 .post-it {
+
+  aspect-ratio: 1:1;
+  height: 200px;
+  aspect-ratio: 1/1;
+  background-color: #0089ba;
+  rotate: -3deg;
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+
   }
 
 .dashboard-frame {
@@ -88,11 +95,25 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+.dashboard--selectors {
+transform: rotate(-3deg);
+background-color:#E0EA87;
+}
+h3 {
+  font-weight: bold;
+}
+=======
+.post-it {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #E0EA87;
+  rotate: -10deg;
 
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+
 #joseph-redmond {
   transform:rotate(8deg);
   background-color: #0089BA;
@@ -102,10 +123,50 @@ h3 {
 #joseph-redmond h2 {
   font-weight: bold;
 }
+
+#Rob-B {
+  background-color: #FF6F91;
+
+.post-it {
+  background-color: #ff6f91;
+
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  transform: rotate(-5deg);
+}
+
+#Rob-B h3 {
+  font-weight: bold;
+}
+
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+#sarah-moran {
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 5deg;
+}
+#greg-cain {
+  background-color: #0089ba;
+  max-width: 200px;
+  max-height: 200px;
+  transform: rotate(10deg);
+}
+
+#tarndeep {
+  width: 200px;
+  height: 200px;
+  border: 2px turquoise solid;
+  background-color: #0089ba;
+  transform: rotate(-5deg);
+}
+
+#tarndeep h3 {
+  font-weight: bold;
+}
 
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
@@ -136,5 +197,6 @@ h3 {
 
   .dashboard--layouts {
     grid-area: Layouts;
+    background-color: #0089BA;
   }
 }
