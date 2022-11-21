@@ -22,6 +22,10 @@ h3 {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+  height: 200px;
+  aspect-ratio: 1/1;
+  background-color: #FF6F91;
+  transform: rotate(10deg)
 }
 
 .dashboard-frame {
@@ -88,21 +92,44 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+.dashboard--selectors {
+transform: rotate(-3deg);
+background-color:#E0EA87;
+}
+h3 {
+  font-weight: bold;
+}
+=======
+.post-it {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #E0EA87;
+  rotate: -10deg;
 
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
-/***************************************************/
-/* LAYOUTS */
-/***************************************************/
-/* Put Layout post-it styles here! ↓ */
-#greg-cain {
+.post-it {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #FF6F91;
+}
+
+
+#lewis-smith {
+  rotate: -4deg;
+}
+
+#joseph-redmond {
+  transform:rotate(8deg);
   background-color: #0089BA;
-  max-width: 200px;
-  max-height:200px;
-  transform: rotate(10deg);
+  height: 200px;
+  padding-top: 100%;
+}
+#joseph-redmond h2 {
+  font-weight: bold;
 }
 
 #tarndeep {
@@ -111,14 +138,28 @@ h3 {
   justify-content: space-evenly;
   width: 200px;
   aspect-ratio: 1/1;
+}
+
+#Rob-B {
+  background-color: #FF6F91;
+  aspect-ratio: 1 / 1;
   height: 200px;
-  border: 2px turquoise solid;
-  background-color: #0089ba;
   transform: rotate(-5deg);
 }
 
-#tarndeep h3 {
+#Rob-B h3 {
   font-weight: bold;
+}
+
+
+/***************************************************/
+/* LAYOUTS */
+/***************************************************/
+/* Put Layout post-it styles here! ↓ */
+
+#matthew-giles {
+  background-color: #0089ba;
+  transform: rotate(-4deg);
 }
 
 /***************************************************/
