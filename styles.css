@@ -17,8 +17,12 @@ h3 {
 }
 
 .post-it {
+
   aspect-ratio: 1:1;
   height: 200px;
+  aspect-ratio: 1/1;
+  background-color: #0089ba;
+  rotate: -3deg;
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
@@ -110,14 +114,19 @@ h3 {
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+
+#Rob-B {
+  background-color: #FF6F91;
+
 .post-it {
   background-color: #ff6f91;
+
   aspect-ratio: 1 / 1;
   height: 200px;
   transform: rotate(-5deg);
 }
 
-.post-it h3 {
+#Rob-B h3 {
   font-weight: bold;
 }
 
