@@ -14,6 +14,7 @@ h3 {
   font-weight: bold;
   margin-bottom: 4px;
   font-weight: bold;
+  font-display: bold;
 }
 
 .post-it {
@@ -26,6 +27,12 @@ h3 {
   aspect-ratio: 1/1;
   background-color: #FF6F91;
   transform: rotate(10deg)
+}
+#Lee-Moss {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: 2deg;
 }
 
 .dashboard-frame {
@@ -99,12 +106,12 @@ background-color:#E0EA87;
 h3 {
   font-weight: bold;
 }
-=======
 .post-it {
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #E0EA87;
-  rotate: -10deg;
+  rotate: (-10deg);
+}
 
 #mikebrewer{
   
@@ -125,7 +132,6 @@ h3 {
   background-color: #FF6F91;
 }
 
-
 #lewis-smith {
   rotate: -4deg;
 }
@@ -140,11 +146,16 @@ h3 {
   font-weight: bold;
 }
 
-#Rob-B {
-  background-color: #FF6F91;
+#tarndeep {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 200px;
+  aspect-ratio: 1/1;
 }
 
-
+#Rob-B {
+  background-color: #FF6F91;
   aspect-ratio: 1 / 1;
   height: 200px;
   transform: rotate(-5deg);
@@ -160,10 +171,33 @@ h3 {
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
 
+
+#lauraCrawford{
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  transform: rotate(8deg);
+}
+
+#sarah-moran {
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 5deg;
+}
+#greg-cain {
+  background-color: #0089ba;
+  max-width: 200px;
+  max-height: 200px;
+  transform: rotate(10deg);
+}
+
+
 #matthew-giles {
   background-color: #0089ba;
   transform: rotate(-4deg);
 }
+
 
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
