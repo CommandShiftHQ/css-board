@@ -14,6 +14,7 @@ h3 {
   font-weight: bold;
   margin-bottom: 4px;
   font-weight: bold;
+  font-display: bold;
 }
 
 .post-it {
@@ -26,6 +27,12 @@ h3 {
   aspect-ratio: 1/1;
   background-color: #FF6F91;
   transform: rotate(10deg)
+}
+#Lee-Moss {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: 2deg;
 }
 
 .dashboard-frame {
