@@ -89,6 +89,14 @@ h3 {
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+#jackmd {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #e0ea87;
+  font-weight: bold;
+  rotate: -3deg;
+}
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
