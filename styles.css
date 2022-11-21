@@ -22,6 +22,9 @@ h3 {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+  background-color: #0089BA;
+  height: 200px;
+  padding-top: 100%;
 }
 
 .dashboard-frame {
