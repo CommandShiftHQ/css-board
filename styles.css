@@ -94,8 +94,13 @@ h3 {
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
-/* update by David */.
-.dashboard--selectors, .dashboard--properties, .dashboard--layouts {
+.dashboard--selectors {
+	border:2px;
+}
+.dashboard--properties {
+	border:2px;
+}
+.dashboard--layouts {
 	border:2px;
 }
 
