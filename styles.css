@@ -211,7 +211,12 @@ h3 {
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
-/* Put Layout post-it styles here! ↓ */
+.post-it {
+  width: 200px;
+  height:200px;
+  background-color: #0089BA;
+  transform: rotate(7deg);
+}
 
 
 #lauraCrawford{
