@@ -22,6 +22,7 @@ h3 {
   list-style: none;
   text-align: center;
   padding: 10px;
+
   margin-bottom: 20px;
   height: 200px;
   aspect-ratio: 1/1;
@@ -34,6 +35,7 @@ h3 {
   background-color: #ff6f91;
   rotate: 2deg;
 }
+
 
 .dashboard-frame {
   background-image: url("wood-texture.jpeg");
@@ -99,10 +101,32 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+
+
+.post-it{
+  
+  height: 200px;
+  aspect-ratio: 1/1;
+  background-color: #e0ea97;
+  rotate: -7deg;
+  text-align: center;
+}
+
+#Ernesto-Angustia
+{
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #E0EA87;
+  rotate: 10deg;
+  font-style: bold;
+  
+
+
 .dashboard--selectors {
 transform: rotate(-3deg);
 background-color:#E0EA87;
 }
+
 h3 {
   font-weight: bold;
 }
@@ -111,6 +135,24 @@ h3 {
   height: 200px;
   background-color: #E0EA87;
   rotate: (-10deg);
+
+}
+
+#mikebrewer{
+  
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #E0EA87;
+  transform: rotate(-3deg);
+  font-weight: bold;
+}
+
+#jackmd {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #e0ea87;
+  font-weight: bold;
+  rotate: -3deg;
 }
 
 /***************************************************/
@@ -131,6 +173,14 @@ transform: rotate(8deg);
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #FF6F91;
+}
+
+
+#chris-edwards {
+  aspect-ratio: 1;
+  height:200px;
+  background-color: #E0EA87;
+  rotate: -10deg;
 }
 
 #lewis-smith {
@@ -165,12 +215,20 @@ transform: rotate(8deg);
 #Rob-B h3 {
   font-weight: bold;
 }
+#david-c {
+  border:2px;
+}
 
 
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
-/* Put Layout post-it styles here! ↓ */
+.post-it {
+  width: 200px;
+  height:200px;
+  background-color: #0089BA;
+  transform: rotate(7deg);
+}
 
 
 #lauraCrawford{
@@ -231,3 +289,4 @@ transform: rotate(8deg);
     grid-area: Layouts;
   }
 }
+
