@@ -93,7 +93,15 @@ h3 {
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+.post-it {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #FF6F91;
+}
 
+#lewis-smith {
+  rotate: -4deg;
+}
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
