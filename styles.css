@@ -99,6 +99,18 @@ h3 {
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
 
+#tarndeep {
+  width: 200px;
+  height: 200px;
+  border: 2px turquoise solid;
+  background-color: #0089ba;
+  transform: rotate(-5deg);
+}
+
+#tarndeep h3 {
+  font-weight: bold;
+}
+
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
