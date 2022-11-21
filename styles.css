@@ -17,11 +17,16 @@ h3 {
 }
 
 .post-it {
+  height: 200px;
+  aspect-ratio: 1/1;
+  background-color: #0089ba;
+  rotate: -3deg;
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+  transform: rotate(8deg);
 }
 
 .dashboard-frame {
@@ -88,12 +93,27 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
-
+.post-it {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #E0EA87;
+  rotate: -10deg;
+}
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+
+.dashboard--selectors {
+	border:2px;
+}
+.dashboard--properties {
+	border:2px;
+}
+.dashboard--layouts {
+	border:2px;
+}
 .post-it {
   background-color: #ff6f91;
   aspect-ratio: 1 / 1;
@@ -163,5 +183,6 @@ h3 {
 
   .dashboard--layouts {
     grid-area: Layouts;
+    background-color: #0089BA;
   }
 }
