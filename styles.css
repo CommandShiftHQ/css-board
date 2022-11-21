@@ -102,6 +102,16 @@ h3 {
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+
+.post-it{
+  
+  height: 200px;
+  aspect-ratio: 1/1;
+  background-color: #e0ea97;
+  rotate: -7deg;
+  text-align: center;
+}
+
 #Ernesto-Angustia
 {
   aspect-ratio: 1/1;
@@ -110,6 +120,7 @@ h3 {
   rotate: 10deg;
   font-style: bold;
   
+
 
 .dashboard--selectors {
 transform: rotate(-3deg);
@@ -124,6 +135,7 @@ h3 {
   height: 200px;
   background-color: #E0EA87;
   rotate: (-10deg);
+
 }
 
 #mikebrewer{
