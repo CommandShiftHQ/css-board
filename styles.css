@@ -17,6 +17,10 @@ h3 {
 }
 
 .post-it {
+  height: 200px;
+  aspect-ratio: 1/1;
+  background-color: #0089ba;
+  rotate: -3deg;
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
