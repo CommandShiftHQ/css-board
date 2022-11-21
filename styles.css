@@ -31,6 +31,18 @@ h3 {
 
   }
 
+#rachmann-joubert{
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #FF6F91;
+  transform: rotate(-4deg);
+}
+
+#rachmann-joubert p, h3 {
+  margin-top: 20px;
+  font-family: Big Caslon;
+}
+
 .dashboard-frame {
   background-image: url("wood-texture.jpeg");
   height: 100vh;
