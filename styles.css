@@ -17,6 +17,8 @@ h3 {
 }
 
 .post-it {
+  aspect-ratio: 1:1;
+  height: 200px;
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
@@ -88,6 +90,14 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+.dashboard--selectors {
+transform: rotate(-3deg);
+background-color:#E0EA87;
+}
+h3 {
+  font-weight: bold;
+}
+
 
 /***************************************************/
 /* PROPERTIES */
