@@ -17,30 +17,15 @@ h3 {
 }
 
 .post-it {
-
-  aspect-ratio: 1:1;
-  height: 200px;
-  aspect-ratio: 1/1;
-  background-color: #0089ba;
-  rotate: -3deg;
   box-shadow: 0 8px 6px -6px black;
   list-style: none;
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
-
-  }
-
-#rachmann-joubert{
-  aspect-ratio: 1/1;
   height: 200px;
+  aspect-ratio: 1/1;
   background-color: #FF6F91;
-  transform: rotate(-4deg);
-}
-
-#rachmann-joubert p, h3 {
-  margin-top: 20px;
-  font-family: Big Caslon;
+  transform: rotate(10deg)
 }
 
 .dashboard-frame {
