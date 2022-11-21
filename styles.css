@@ -14,6 +14,7 @@ h3 {
   font-weight: bold;
   margin-bottom: 4px;
   font-weight: bold;
+  font-display: bold;
 }
 
 .post-it {
@@ -21,8 +22,20 @@ h3 {
   list-style: none;
   text-align: center;
   padding: 10px;
+
   margin-bottom: 20px;
+  height: 200px;
+  aspect-ratio: 1/1;
+  background-color: #FF6F91;
+  transform: rotate(10deg)
 }
+#Lee-Moss {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: 2deg;
+}
+
 
 .dashboard-frame {
   background-image: url("wood-texture.jpeg");
@@ -88,6 +101,19 @@ h3 {
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+.dashboard--selectors {
+transform: rotate(-3deg);
+background-color:#E0EA87;
+}
+h3 {
+  font-weight: bold;
+}
+.post-it {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #E0EA87;
+  rotate: (-10deg);
+}
 
 #jackmd {
   aspect-ratio: 1 / 1;
@@ -102,10 +128,86 @@ h3 {
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+.post-it {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #FF6F91;
+}
+
+
+#chris-edwards {
+  aspect-ratio: 1;
+  height:200px;
+  background-color: #E0EA87;
+  rotate: -10deg;
+}
+
+#lewis-smith {
+  rotate: -4deg;
+}
+
+#joseph-redmond {
+  transform:rotate(8deg);
+  background-color: #0089BA;
+  height: 200px;
+  padding-top: 100%;
+}
+#joseph-redmond h2 {
+  font-weight: bold;
+}
+
+#tarndeep {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 200px;
+  aspect-ratio: 1/1;
+}
+
+#Rob-B {
+  background-color: #FF6F91;
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  transform: rotate(-5deg);
+}
+
+#Rob-B h3 {
+  font-weight: bold;
+}
+
+
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+
+
+#lauraCrawford{
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  transform: rotate(8deg);
+}
+
+#sarah-moran {
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 5deg;
+}
+#greg-cain {
+  background-color: #0089ba;
+  max-width: 200px;
+  max-height: 200px;
+  transform: rotate(10deg);
+}
+
+
+#matthew-giles {
+  background-color: #0089ba;
+  transform: rotate(-4deg);
+}
+
 
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
@@ -138,3 +240,4 @@ h3 {
     grid-area: Layouts;
   }
 }
+
