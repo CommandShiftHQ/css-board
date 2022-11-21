@@ -93,6 +93,15 @@ h3 {
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+#SomiaHussain {
+aspect-ratio: 1/1;
+width: 200px;
+height: 200px;
+background-color: #FF6F91;
+transform: rotate(8deg);
+}
+
+
 
 /***************************************************/
 /* LAYOUTS */
