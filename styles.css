@@ -95,7 +95,7 @@ h3 {
 /* Put Property post-it styles here! ↓ */
 
 .post-it {
-  background-color: #FF6F91;
+  background-color: #ff6f91;
   aspect-ratio: 1 / 1;
   height: 200px;
   transform: rotate(-5deg);
@@ -109,10 +109,16 @@ h3 {
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+#sarah-moran {
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 5deg;
+}
 #greg-cain {
-  background-color: #0089BA;
+  background-color: #0089ba;
   max-width: 200px;
-  max-height:200px;
+  max-height: 200px;
   transform: rotate(10deg);
 }
 
