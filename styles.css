@@ -110,6 +110,7 @@ h3 {
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+
 .post-it {
   aspect-ratio: 1/1;
   height: 200px;
@@ -150,29 +151,10 @@ h3 {
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
-#sarah-moran {
-  background-color: #0089ba;
-  height: 200px;
-  aspect-ratio: 1/1;
-  rotate: 5deg;
-}
-#greg-cain {
-  background-color: #0089ba;
-  max-width: 200px;
-  max-height: 200px;
-  transform: rotate(10deg);
-}
 
-#tarndeep {
-  width: 200px;
-  height: 200px;
-  border: 2px turquoise solid;
+#matthew-giles {
   background-color: #0089ba;
-  transform: rotate(-5deg);
-}
-
-#tarndeep h3 {
-  font-weight: bold;
+  transform: rotate(-4deg);
 }
 
 /***************************************************/
@@ -204,6 +186,5 @@ h3 {
 
   .dashboard--layouts {
     grid-area: Layouts;
-    background-color: #0089BA;
   }
 }
