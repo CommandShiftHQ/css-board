@@ -163,10 +163,33 @@ h3 {
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
 
+
+#lauraCrawford{
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  transform: rotate(8deg);
+}
+
+#sarah-moran {
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 5deg;
+}
+#greg-cain {
+  background-color: #0089ba;
+  max-width: 200px;
+  max-height: 200px;
+  transform: rotate(10deg);
+}
+
+
 #matthew-giles {
   background-color: #0089ba;
   transform: rotate(-4deg);
 }
+
 
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
