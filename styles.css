@@ -169,6 +169,16 @@ transform: rotate(8deg);
 
 
 
+
+.dashboard--selectors {
+	border:2px;
+}
+.dashboard--properties {
+	border:2px;
+}
+.dashboard--layouts {
+	border:2px;
+}
 .post-it {
   aspect-ratio: 1/1;
   height: 200px;
