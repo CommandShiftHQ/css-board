@@ -259,6 +259,14 @@ transform: rotate(8deg);
   transform: rotate(-4deg);
 }
 
+#karen {
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 5deg;
+  overflow: hidden;
+}
+
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
