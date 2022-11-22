@@ -26,11 +26,7 @@ h3 {
   margin-bottom: 20px;
   height: 200px;
   aspect-ratio: 1/1;
-  background-color: #FF6F91;
-  transform: rotate(10deg)
 }
-/*Moved #Lee-Moss to PROPERTIES*/
-
 
 .dashboard-frame {
   background-image: url("wood-texture.jpeg");
@@ -97,18 +93,8 @@ h3 {
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
-/*
-.post-it{
-  
-  height: 200px;
-  aspect-ratio: 1/1;
-  background-color: #e0ea97;
-  rotate: -7deg;
-  text-align: center;
-}
-*/
-#Ernesto-Angustia
-{
+
+#Ernesto-Angustia {
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #E0EA87;
@@ -116,25 +102,7 @@ h3 {
   font-style: bold;
 }
 
-/*
-.dashboard--selectors {
-transform: rotate(-3deg);
-background-color:#E0EA87;
-}
-*//*
-h3 {
-  font-weight: bold;
-}*//*
-.post-it {
-  aspect-ratio: 1/1;
-  height: 200px;
-  background-color: #E0EA87;
-  rotate: (-10deg);
-
-}
-*/
 #mikebrewer{
-  
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #E0EA87;
@@ -150,10 +118,49 @@ h3 {
   rotate: -3deg;
 }
 
+#dhivian-p {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #e0ea87;
+  font-weight: bold;
+  rotate: -3deg;
+}
+
+#Tony-Moran {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #e0ea87;
+  font-weight: bold;
+  rotate: 3deg;
+}
+
+#Abi-Turner {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #e0ea87;
+  font-weight: bold;
+  rotate: -3deg;
+}
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+
+#rachmann-joubert {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: -4deg;
+}
+
+#Lee-Moss {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: 2deg;
+}
+
 #SomiaHussain {
 aspect-ratio: 1/1;
 width: 200px;
@@ -162,47 +169,32 @@ background-color: #FF6F91;
 transform: rotate(8deg);
 }
 
-#Lee-Moss {
-  aspect-ratio: 1;
-  height: 200px;
-  background-color: #ff6f91;
-  rotate: 2deg;
-}
-/*
-.post-it {
-  aspect-ratio: 1/1;
-  height: 200px;
-  background-color: #FF6F91;
-}
-*/
-
 #chris-edwards {
-  aspect-ratio: 1;
+  aspect-ratio: 1/1;
   height:200px;
-  background-color: #E0EA87;
+  background-color: #FF6F91;
   rotate: -10deg;
 }
 
 #lewis-smith {
+  aspect-ratio: 1/1;
+  height:200px;
+  background-color: #FF6F91;
   rotate: -4deg;
 }
 
 #joseph-redmond {
-  transform:rotate(8deg);
-  background-color: #0089BA;
+  aspect-ratio: 1/1;
+  background-color: #FF6F91;
   height: 200px;
-  padding-top: 100%;
-}
-#joseph-redmond h2 {
-  font-weight: bold;
+  transform: rotate(8deg);
 }
 
 #tarndeep {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 200px;
   aspect-ratio: 1/1;
+  width: 200px;
+  background-color: #FF6F91;
+  rotate: 3deg;
 }
 
 #Rob-B {
@@ -215,22 +207,32 @@ transform: rotate(8deg);
 #Rob-B h3 {
   font-weight: bold;
 }
+
 #david-c {
-  border:2px;
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: 5deg;
+}
+
+#tom-wilkinson {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: 4deg;
+}
+
+#edcrowther {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: -1deg;
 }
 
 
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
-/*
-.post-it {
-  width: 200px;
-  height:200px;
-  background-color: #0089BA;
-  transform: rotate(7deg);
-}
-*/
 
 #lauraCrawford{
   background-color: #0089ba;
@@ -245,6 +247,7 @@ transform: rotate(8deg);
   aspect-ratio: 1/1;
   rotate: 5deg;
 }
+
 #greg-cain {
   background-color: #0089ba;
   max-width: 200px;
@@ -252,12 +255,18 @@ transform: rotate(8deg);
   transform: rotate(10deg);
 }
 
-
 #matthew-giles {
   background-color: #0089ba;
   transform: rotate(-4deg);
 }
 
+#karen {
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 5deg;
+  overflow: hidden;
+}
 
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
