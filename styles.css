@@ -112,14 +112,13 @@ h3 {
   text-align: center;
 }
 
-#Ernesto-Angustia
-{
+#Ernesto-Angustia {
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #E0EA87;
   rotate: 10deg;
   font-style: bold;
-  
+}
 
 
 .dashboard--selectors {
