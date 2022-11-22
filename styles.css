@@ -29,12 +29,7 @@ h3 {
   background-color: #FF6F91;
   transform: rotate(10deg)
 }
-#Lee-Moss {
-  aspect-ratio: 1;
-  height: 200px;
-  background-color: #ff6f91;
-  rotate: 2deg;
-}
+/*Moved #Lee-Moss to PROPERTIES*/
 
 
 .dashboard-frame {
@@ -102,7 +97,7 @@ h3 {
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
-
+/*
 .post-it{
   
   height: 200px;
@@ -111,7 +106,7 @@ h3 {
   rotate: -7deg;
   text-align: center;
 }
-
+*/
 #Ernesto-Angustia
 {
   aspect-ratio: 1/1;
@@ -121,15 +116,15 @@ h3 {
   font-style: bold;
 }
 
-
+/*
 .dashboard--selectors {
 transform: rotate(-3deg);
 background-color:#E0EA87;
 }
-
+*//*
 h3 {
   font-weight: bold;
-}
+}*//*
 .post-it {
   aspect-ratio: 1/1;
   height: 200px;
@@ -137,7 +132,7 @@ h3 {
   rotate: (-10deg);
 
 }
-
+*/
 #mikebrewer{
   
   aspect-ratio: 1/1;
@@ -167,14 +162,19 @@ background-color: #FF6F91;
 transform: rotate(8deg);
 }
 
-
-
+#Lee-Moss {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: 2deg;
+}
+/*
 .post-it {
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #FF6F91;
 }
-
+*/
 
 #chris-edwards {
   aspect-ratio: 1;
@@ -223,13 +223,14 @@ transform: rotate(8deg);
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
+/*
 .post-it {
   width: 200px;
   height:200px;
   background-color: #0089BA;
   transform: rotate(7deg);
 }
-
+*/
 
 #lauraCrawford{
   background-color: #0089ba;
