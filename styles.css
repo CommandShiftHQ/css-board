@@ -141,7 +141,7 @@ h3 {
 }
 
 #Lee-Moss {
-  aspect-ratio: 1;
+  aspect-ratio: 1/1;
   height: 200px;
   background-color: #ff6f91;
   rotate: 2deg;
@@ -156,32 +156,31 @@ transform: rotate(8deg);
 }
 
 #chris-edwards {
-  aspect-ratio: 1;
+  aspect-ratio: 1/1;
   height:200px;
-  background-color: #E0EA87;
+  background-color: #FF6F91;
   rotate: -10deg;
 }
 
 #lewis-smith {
+  aspect-ratio: 1/1;
+  height:200px;
+  background-color: #FF6F91;
   rotate: -4deg;
 }
 
 #joseph-redmond {
-  transform:rotate(8deg);
-  background-color: #0089BA;
+  aspect-ratio: 1/1;
+  background-color: #FF6F91;
   height: 200px;
-  padding-top: 100%;
-}
-#joseph-redmond h2 {
-  font-weight: bold;
+  transform: rotate(8deg);
 }
 
 #tarndeep {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 200px;
   aspect-ratio: 1/1;
+  width: 200px;
+  background-color: #FF6F91;
+  rotate: 3deg;
 }
 
 #Rob-B {
@@ -194,6 +193,7 @@ transform: rotate(8deg);
 #Rob-B h3 {
   font-weight: bold;
 }
+
 #david-c {
   border:2px;
 }
