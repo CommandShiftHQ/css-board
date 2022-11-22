@@ -22,6 +22,10 @@ h3 {
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #E0EA87;
+  transform: rotate(-3deg);
 }
 
 .dashboard-frame {
