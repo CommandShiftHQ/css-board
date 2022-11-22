@@ -195,7 +195,10 @@ transform: rotate(8deg);
 }
 
 #david-c {
-  border:2px;
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: 5deg;
 }
 
 #tom-wilkinson {
