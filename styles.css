@@ -103,14 +103,14 @@ h3 {
 /* Put Selector post-it styles here! ↓ */
 
 
-.post-it{
+/* .post-it{
   
   height: 200px;
   aspect-ratio: 1/1;
   background-color: #e0ea97;
   rotate: -7deg;
   text-align: center;
-}
+} */
 
 #Ernesto-Angustia {
   aspect-ratio: 1/1;
@@ -129,13 +129,13 @@ background-color:#E0EA87;
 h3 {
   font-weight: bold;
 }
-.post-it {
+/* .post-it {
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #E0EA87;
   rotate: (-10deg);
 
-}
+} */
 
 #mikebrewer{
   
@@ -158,6 +158,7 @@ h3 {
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+
 #SomiaHussain {
 aspect-ratio: 1/1;
 width: 200px;
@@ -168,11 +169,11 @@ transform: rotate(8deg);
 
 
 
-.post-it {
+/* .post-it {
   aspect-ratio: 1/1;
   height: 200px;
   background-color: #FF6F91;
-}
+} */
 
 
 #chris-edwards {
@@ -222,12 +223,12 @@ transform: rotate(8deg);
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
-.post-it {
+/* .post-it {
   width: 200px;
   height:200px;
   background-color: #0089BA;
   transform: rotate(7deg);
-}
+} */
 
 
 #lauraCrawford{
