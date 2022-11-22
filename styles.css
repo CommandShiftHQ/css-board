@@ -133,6 +133,14 @@ h3 {
   rotate: 3deg;
 }
 
+#Abi-Turner {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #e0ea87;
+  font-weight: bold;
+  rotate: -3deg;
+}
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
