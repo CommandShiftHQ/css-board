@@ -26,8 +26,8 @@ h3 {
   margin-bottom: 20px;
   height: 200px;
   aspect-ratio: 1/1;
-  background-color: #FF6F91;
-  transform: rotate(10deg)
+  /* background-color: #FF6F91; */
+  /* transform: rotate(10deg) */
 }
 
 .dashboard-frame {
