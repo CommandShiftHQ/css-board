@@ -29,13 +29,6 @@ h3 {
   background-color: #FF6F91;
   transform: rotate(10deg)
 }
-#Lee-Moss {
-  aspect-ratio: 1;
-  height: 200px;
-  background-color: #ff6f91;
-  rotate: 2deg;
-}
-
 
 .dashboard-frame {
   background-image: url("wood-texture.jpeg");
@@ -102,16 +95,6 @@ h3 {
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
-
-/* .post-it{
-  
-  height: 200px;
-  aspect-ratio: 1/1;
-  background-color: #e0ea97;
-  rotate: -7deg;
-  text-align: center;
-} */
-
 #Ernesto-Angustia {
   aspect-ratio: 1/1;
   height: 200px;
@@ -129,13 +112,6 @@ background-color:#E0EA87;
 h3 {
   font-weight: bold;
 }
-/* .post-it {
-  aspect-ratio: 1/1;
-  height: 200px;
-  background-color: #E0EA87;
-  rotate: (-10deg);
-
-} */
 
 #mikebrewer{
   
@@ -159,6 +135,13 @@ h3 {
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+#Lee-Moss {
+  aspect-ratio: 1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: 2deg;
+}
+
 #SomiaHussain {
 aspect-ratio: 1/1;
 width: 200px;
@@ -166,15 +149,6 @@ height: 200px;
 background-color: #FF6F91;
 transform: rotate(8deg);
 }
-
-
-
-/* .post-it {
-  aspect-ratio: 1/1;
-  height: 200px;
-  background-color: #FF6F91;
-} */
-
 
 #chris-edwards {
   aspect-ratio: 1;
@@ -223,13 +197,6 @@ transform: rotate(8deg);
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
-/* .post-it {
-  width: 200px;
-  height:200px;
-  background-color: #0089BA;
-  transform: rotate(7deg);
-} */
-
 
 #lauraCrawford{
   background-color: #0089ba;
@@ -244,6 +211,7 @@ transform: rotate(8deg);
   aspect-ratio: 1/1;
   rotate: 5deg;
 }
+
 #greg-cain {
   background-color: #0089ba;
   max-width: 200px;
@@ -251,12 +219,10 @@ transform: rotate(8deg);
   transform: rotate(10deg);
 }
 
-
 #matthew-giles {
   background-color: #0089ba;
   transform: rotate(-4deg);
 }
-
 
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
