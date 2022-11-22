@@ -205,6 +205,13 @@ transform: rotate(8deg);
   rotate: 4deg;
 }
 
+#edcrowther {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #ff6f91;
+  rotate: -1deg;
+}
+
 
 /***************************************************/
 /* LAYOUTS */
