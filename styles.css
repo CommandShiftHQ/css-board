@@ -257,9 +257,19 @@ transform: rotate(8deg);
 
 #matthew-giles {
   background-color: #0089ba;
-  transform: rotate(-4deg);
+  transform: rotate(-8deg);
+  animation-name: mg-post-it;
+  animation-duration: 10s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
 }
-
+@keyframes mg-post-it {
+  0% {transform: rotate(-8deg);}
+  45% {transform: rotate(7deg);}
+  50% {transform: rotate(8deg);}
+  55% {transform: rotate(7deg);}
+  100% {transform: rotate(-8deg);}
+}
 #karen {
   background-color: #0089ba;
   height: 200px;
