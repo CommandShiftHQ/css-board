@@ -89,7 +89,7 @@ h3 {
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 #josie-corrina {
-  background-color: #e0ea87
+  background-color: #e0ea87;
   height: 200px;
   aspect-ratio: 1/1;
   transform: rotate(-10deg);
