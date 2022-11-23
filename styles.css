@@ -154,18 +154,29 @@ h3 {
   }
 
   .dashboard--heading {
-    grid-area: Heading;
+    grid-area: Heading; 
   }
 
   .dashboard--selectors {
-    grid-area: Selectors;
+    grid-area: Selectors; ;
   }
 
   .dashboard--properties {
-    grid-area: Properties;
+    grid-area: Properties; 
   }
 
   .dashboard--layouts {
-    grid-area: Layouts;
+    grid-area: Layouts; 
+    background-color: #0089BA;
   }
+  
+}
+h3{
+  font-weight: bold;
+} 
+#Abdi{ 
+  transform: rotate(10);
+  aspect-ratio: 1/1;
+  height: 200px;
+
 }
