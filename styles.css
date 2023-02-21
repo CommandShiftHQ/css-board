@@ -85,6 +85,15 @@
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+
+#dave-bratby{
+  aspect-ratio: 1/1;
+  transform: rotate(-10deg);
+  height: 200px;
+  background: #E0EA87;
+} 
+
+h3{
 #camillaPriestStephens {
   aspect-ratio: 1 / 1;
   height: 200px;
