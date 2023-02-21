@@ -78,10 +78,48 @@
   transform: rotate(-1.5deg);
 }
 
+
+
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
+
+#camillaPriestStephens {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #E0EA87;
+  transform: rotate(-5deg);
+}
+
+#camillaPriestStephens h3 {
+  font-weight: bold;
+}
+
+/* joshkuhn start */
+
+#jenny {
+  background-color: #E0EA87;
+  aspect-ratio: 1/1;
+  height: 200px;
+  transform: rotate(3deg); 
+}
+#jenny h3 {
+font-weight: bold;
+}
+
+#joshkuhn {
+  color:black; 
+  background-color: #E0EA87;
+  aspect-ratio: 1/1;
+  height: 200px;
+  width: auto;
+  transform: rotate(-5deg);
+}
+
+#joshkuhn h3 {
+  font-weight: bold;
+}
 
 /***************************************************/
 /* PROPERTIES */
@@ -96,10 +134,114 @@
   width: 250px;
 }
 
-h3 {
+#Emma-Wilkinson h3 {
+  font-weight: bold;
+}
+
+#benj-speight {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #FF6F91;
+  rotate: -6deg;
+}
+
+#benj-speight h3 {
+  font-weight: bold;
+}
+
+
+#jose-wills {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #FF6F91;
+  transform: rotate(9deg);
+}
+
+#jose-wills h3 {
+  font-weight: bold;
+}
+
+#david{
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #FF6F91;
+  transform: rotate(-5deg);
+}
+
+#max-tauroza {
+  background-color: #ff6f91;
+  height: 200px;
+  transform: rotate(7deg);
+  aspect-ratio: 1 / 1;;
+}
+
+#max-tauroza h3 {
+  font-weight: bold;
+}
+
+#david h3{
   font-weight: bold;
 }
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+
+
+#matt_mullins {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #0089BA;
+  transform: rotate(6.7deg);
+}
+
+#matt_mullins_h3 {
+  font-weight: bold;
+}
+
+#jordan-noble
+{
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #0089BA;
+  rotate: -6deg;
+}
+
+#jordan-noble h3
+{
+  font-weight: bold;
+}
+
+
+/***************************************************/
+/* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
+/* Please do not change ^_^ */
+/***************************************************/
+
+@media screen and (min-width: 768px) {
+  .dashboard-area {
+    display: grid;
+    grid-template-rows: 0.5fr repeat(2, 1fr);
+    grid-template-areas:
+      "Heading Heading Heading"
+      "Selectors Properties Layouts"
+      "Selectors Properties Layouts";
+  }
+
+  .dashboard--heading {
+    grid-area: Heading;
+  }
+
+  .dashboard--selectors {
+    grid-area: Selectors;
+  }
+
+  .dashboard--properties {
+    grid-area: Properties;
+  }
+
+  .dashboard--layouts {
+    grid-area: Layouts;
+  }
+
+
