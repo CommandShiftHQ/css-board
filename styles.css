@@ -83,6 +83,13 @@
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+#dave-bratby {
+  aspect-ratio: 1/1;
+  transform: rotate(-10deg);
+  height: 200px;
+  background: #e0ea87;
+}
+
 #camillaPriestStephens {
   aspect-ratio: 1 / 1;
   height: 200px;
@@ -123,6 +130,17 @@
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+#Emma-Wilkinson {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #ff6f91;
+  transform: rotate(1deg);
+  width: 250px;
+}
+
+#Emma-Wilkinson h3 {
+  font-weight: bold;
+}
 
 #benj-speight {
   aspect-ratio: 1 / 1;
@@ -167,7 +185,6 @@
 #david h3 {
   font-weight: bold;
 }
-
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
@@ -193,6 +210,16 @@
 
 #jordan-noble h3 {
   font-weight: bold;
+}
+#anthony {
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #0089ba;
+  transform: rotate(10deg);
+}
+
+#anthony h3 {
+  font-weight: 700;
 }
 
 /***************************************************/
