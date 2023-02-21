@@ -92,3 +92,13 @@
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+#anthony{
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #0089BA;
+  transform: rotate(10deg)
+}
+
+#anthony.title{
+  font-weight: 700;
+}
