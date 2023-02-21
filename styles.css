@@ -126,7 +126,6 @@ font-weight: bold;
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
-
 #benj-speight {
   aspect-ratio: 1 / 1;
   height: 200px;
@@ -138,6 +137,17 @@ font-weight: bold;
   font-weight: bold;
 }
 
+
+#jose-wills {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #FF6F91;
+  transform: rotate(9deg);
+}
+
+#jose-wills h3 {
+  font-weight: bold;
+}
 
 #david{
   aspect-ratio: 1 / 1;
@@ -155,7 +165,6 @@ font-weight: bold;
 
 #max-tauroza h3 {
   font-weight: bold;
-
 }
 
 #david h3{
@@ -166,6 +175,32 @@ font-weight: bold;
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+
+
+#matt_mullins {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #0089BA;
+  transform: rotate(6.7deg);
+}
+
+#matt_mullins_h3 {
+  font-weight: bold;
+}
+
+#jordan-noble
+{
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #0089BA;
+  rotate: -6deg;
+}
+
+#jordan-noble h3
+{
+  font-weight: bold;
+}
+
 
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
@@ -197,4 +232,5 @@ font-weight: bold;
   .dashboard--layouts {
     grid-area: Layouts;
   }
-}
+
+
