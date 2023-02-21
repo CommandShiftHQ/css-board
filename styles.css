@@ -88,6 +88,16 @@
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+#jose-wills {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #FF6F91;
+  transform: rotate(9deg);
+}
+
+#jose-wills h3 {
+  font-weight: bold;
+}
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
