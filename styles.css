@@ -153,6 +153,20 @@ font-weight: bold;
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
 
+#jordan-noble
+{
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #0089BA;
+  rotate: -6deg;
+}
+
+#jordan-noble h3
+{
+  font-weight: bold;
+}
+=======
+
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
@@ -184,3 +198,4 @@ font-weight: bold;
     grid-area: Layouts;
   }
 }
+
