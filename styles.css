@@ -236,6 +236,12 @@
   font-weight: 700;
 }
 
+#umar-farooq {
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #0089BA;
+  transform: rotate(-4deg);
+}
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
