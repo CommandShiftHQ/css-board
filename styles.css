@@ -82,7 +82,15 @@
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
-
+#jenny {
+  background-color: #E0EA87;
+  aspect-ratio: 1:1;
+  height: 200px;
+  transform: rotate(3deg); 
+}
+#jenny h3 {
+font-weight: bold;
+}
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
