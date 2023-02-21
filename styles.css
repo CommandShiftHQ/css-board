@@ -126,6 +126,18 @@ font-weight: bold;
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+#benj-speight {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #FF6F91;
+  rotate: -6deg;
+}
+
+#benj-speight h3 {
+  font-weight: bold;
+}
+
+
 #jose-wills {
   aspect-ratio: 1 / 1;
   height: 200px;
@@ -158,6 +170,7 @@ font-weight: bold;
 #david h3{
   font-weight: bold;
 }
+
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
