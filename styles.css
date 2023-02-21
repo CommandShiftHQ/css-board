@@ -92,3 +92,15 @@
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+#jordan-noble
+{
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #0089BA;
+  rotate: -5deg;
+}
+
+#jordan-noble h3
+{
+  font-weight: bold;
+}
