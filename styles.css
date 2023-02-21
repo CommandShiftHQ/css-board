@@ -83,6 +83,17 @@
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+#camillaPriestStephens {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+  background-color: #E0EA87;
+  transform: rotate(-5deg);
+}
+
+#camillaPriestStephens h3 {
+  font-weight: bold;
+}
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
