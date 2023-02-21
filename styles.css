@@ -83,6 +83,21 @@
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+/* joshkuhn start */
+#joshkuhn {
+  color:black; 
+  background-color: #E0EA87;
+  aspect-ratio: 1/1;
+  height: 200px;
+  width: auto;
+  transform: rotate(-5deg);
+}
+
+#joshkuhn h3 {
+  font-weight: bold;
+}
+/*joshkuhn end*/
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
