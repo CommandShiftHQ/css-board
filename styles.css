@@ -83,17 +83,14 @@
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
-
-#asif-islam 
-{
+#asif-islam {
   height: 200px;
   aspect-ratio: 1 / 1;
-  background-color: #E0EA87;
+  background-color: #e0ea87;
   rotate: 10deg;
 }
 
-#asif-islam h3
-{
+#asif-islam h3 {
   font-weight: bold;
 }
 
@@ -207,7 +204,7 @@
 .post-it#amy-smith {
   height: 200px;
   aspect-ratio: 1;
-  background-color: #0089BA;
+  background-color: #0089ba;
   rotate: 10deg;
 }
 
@@ -220,6 +217,7 @@
   height: 200px;
   aspect-ratio: 1/1;
   rotate: 5deg;
+}
 
 #matt_mullins {
   aspect-ratio: 1/1;
@@ -256,7 +254,7 @@
 #umar-farooq {
   height: 200px;
   aspect-ratio: 1 / 1;
-  background-color: #0089BA;
+  background-color: #0089ba;
   transform: rotate(-4deg);
 }
 /***************************************************/
