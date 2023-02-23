@@ -80,17 +80,33 @@ body{
   transform: rotate(-1.5deg);
 }
 
-
-
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+#asif-islam {
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #e0ea87;
+  rotate: 10deg;
+}
+
+#asif-islam h3 {
+  font-weight: bold;
+}
+
+#dave-bratby {
+  aspect-ratio: 1/1;
+  transform: rotate(-10deg);
+  height: 200px;
+  background: #e0ea87;
+}
+
 #camillaPriestStephens {
   aspect-ratio: 1 / 1;
   height: 200px;
-  background-color: #E0EA87;
+  background-color: #e0ea87;
   transform: rotate(-5deg);
 }
 
@@ -101,18 +117,18 @@ body{
 /* joshkuhn start */
 
 #jenny {
-  background-color: #E0EA87;
+  background-color: #e0ea87;
   aspect-ratio: 1/1;
   height: 200px;
-  transform: rotate(3deg); 
+  transform: rotate(3deg);
 }
 #jenny h3 {
-font-weight: bold;
+  font-weight: bold;
 }
 
 #joshkuhn {
-  color:black; 
-  background-color: #E0EA87;
+  color: black;
+  background-color: #e0ea87;
   aspect-ratio: 1/1;
   height: 200px;
   width: auto;
@@ -127,11 +143,22 @@ font-weight: bold;
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+#Emma-Wilkinson {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #ff6f91;
+  transform: rotate(1deg);
+  width: 250px;
+}
+
+#Emma-Wilkinson h3 {
+  font-weight: bold;
+}
 
 #benj-speight {
   aspect-ratio: 1 / 1;
   height: 200px;
-  background-color: #FF6F91;
+  background-color: #ff6f91;
   rotate: -6deg;
 }
 
@@ -149,11 +176,10 @@ font-weight: bold;
   font-weight: bold;
 }
 
-
 #jose-wills {
   aspect-ratio: 1 / 1;
   height: 200px;
-  background-color: #FF6F91;
+  background-color: #ff6f91;
   transform: rotate(9deg);
 }
 
@@ -161,10 +187,10 @@ font-weight: bold;
   font-weight: bold;
 }
 
-#david{
+#david {
   aspect-ratio: 1 / 1;
   height: 200px;
-  background-color: #FF6F91;
+  background-color: #ff6f91;
   transform: rotate(-5deg);
 }
 
@@ -172,27 +198,43 @@ font-weight: bold;
   background-color: #ff6f91;
   height: 200px;
   transform: rotate(7deg);
-  aspect-ratio: 1 / 1;;
+  aspect-ratio: 1 / 1;
 }
 
 #max-tauroza h3 {
   font-weight: bold;
 }
 
-#david h3{
+#david h3 {
   font-weight: bold;
 }
-
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
 
+.post-it#amy-smith {
+  height: 200px;
+  aspect-ratio: 1;
+  background-color: #0089ba;
+  rotate: 10deg;
+}
+
+#amy-smith h3 {
+  font-weight: bold;
+}
+
+#armghan-zubair {
+  background-color: #0089ba;
+  height: 200px;
+  aspect-ratio: 1/1;
+  rotate: 5deg;
+}
 
 #matt_mullins {
   aspect-ratio: 1/1;
   height: 200px;
-  background-color: #0089BA;
+  background-color: #0089ba;
   transform: rotate(6.7deg);
 }
 
@@ -200,20 +242,33 @@ font-weight: bold;
   font-weight: bold;
 }
 
-#jordan-noble
-{
+#jordan-noble {
   height: 200px;
   aspect-ratio: 1 / 1;
-  background-color: #0089BA;
+  background-color: #0089ba;
   rotate: -6deg;
 }
 
-#jordan-noble h3
-{
+#jordan-noble h3 {
   font-weight: bold;
 }
+#anthony {
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #0089ba;
+  transform: rotate(10deg);
+}
 
+#anthony h3 {
+  font-weight: 700;
+}
 
+#umar-farooq {
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  background-color: #0089ba;
+  transform: rotate(-4deg);
+}
 /***************************************************/
 /* MEDIA QUERIES TO ENSURE RESPONSIVENESS */
 /* Please do not change ^_^ */
@@ -244,3 +299,4 @@ font-weight: bold;
   .dashboard--layouts {
     grid-area: Layouts;
   }
+}
