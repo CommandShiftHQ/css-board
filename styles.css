@@ -96,7 +96,16 @@
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
-/* Put Selector post-it styles here! ↓ */
+#Jonathan-Thompson {
+  background-color: #E0EA87;
+  transform: rotate(-2.5deg);
+  height: 200px;
+  aspect-ratio: 1/1;
+}
+
+
+ 
+
 
 #billy-walker {
   height: 200px;
