@@ -88,6 +88,19 @@
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+#dalbahia {
+  background-color: #FF6F91;
+  height: 200px;
+  aspect-ratio: 1 / 1;
+  transform: rotate(3deg)
+}
+
+.post-it > h3 {
+  font-weight: bold;
+}
+
+
+
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
