@@ -83,11 +83,34 @@
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+#billy-walker {
+  height: 200px;
+  width: 200px;
+  background-color: #E0EA87;
+  rotate: 7deg;
+}
+
+.pseudo-class-header {
+  font-weight: bold;
+}
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+
+#louiseosborne {
+  background-color: #FF6F91;
+  aspect-ratio: 1/1;
+  height: 200px;
+  list-style: none;
+  transform: rotate(-3deg);
+}
+
+#louiseosborne > h3{
+  font-weight: bold;
+}
 #dalbahia {
   background-color: #FF6F91;
   height: 200px;
