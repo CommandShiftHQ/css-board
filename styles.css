@@ -92,9 +92,13 @@
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
-.post-it #andrea {
+.post-it#andrea {
 	height: 200px;
 	aspect-ratio: 1;
 	background-color: #0089BA;
 	rotate: z 5deg;
+}
+
+#andrea h3{
+  font-weight:bold;
 }
