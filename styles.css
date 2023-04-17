@@ -83,7 +83,7 @@
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
-.post-it {
+#pseudo-post-it {
   height: 200px;
   width: 200px;
   background-color: #E0EA87;
