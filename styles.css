@@ -83,6 +83,17 @@
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+.post-it {
+  height: 200px;
+  width: 200px;
+  background-color: #E0EA87;
+  rotate: 7deg;
+}
+
+.pseudo-class-header {
+  font-weight: bold;
+}
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
