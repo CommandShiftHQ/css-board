@@ -152,6 +152,18 @@ transform: rotate(-2.5deg);
   font-weight: bold;
 }
 
+#cristina-soare {
+  height:200px;
+  background-color: #E0EA87;
+  rotate: -7deg;
+  aspect-ratio: 1/1;
+}
+
+#cristina-soare h3 {
+  font-weight:bold;
+}
+
+
 
   
 
