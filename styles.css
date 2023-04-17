@@ -103,6 +103,8 @@
   width: 200px;
   background-color: #E0EA87;
   rotate: 7deg;
+  aspect-ratio: 1/1;
+  list-style: none;
 }
 
 .pseudo-class-header {
