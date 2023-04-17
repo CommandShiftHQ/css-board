@@ -92,7 +92,7 @@
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
-#andrea {
+.post-it #andrea {
 	height: 200px;
 	aspect-ratio: 1;
 	background-color: #0089BA;
