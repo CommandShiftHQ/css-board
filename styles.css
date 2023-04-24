@@ -92,3 +92,30 @@
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+
+@media screen and (min-width: 768px) {
+  .dashboard-area {
+    display: grid;
+    grid-template-rows: 0.5fr repeat(2, 1fr);
+    grid-template-areas:
+      "Heading Heading Heading"
+      "Selectors Properties Layouts"
+      "Selectors Properties Layouts";
+  }
+
+  .dashboard--heading {
+    grid-area: Heading;
+  }
+
+  .dashboard--selectors {
+    grid-area: Selectors;
+  }
+
+  .dashboard--properties {
+    grid-area: Properties;
+  }
+
+  .dashboard--layouts {
+    grid-area: Layouts;
+  }
+}
