@@ -102,6 +102,14 @@
   rotate: -10deg;
 }
 
+#phoebe-Maas {
+  background-color: #E0EA87;
+  width: 200px;
+  height: 200px;
+  transform: rotate(-4deg);
+}
+
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
