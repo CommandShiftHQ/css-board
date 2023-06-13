@@ -83,6 +83,14 @@
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+#peterskerritt {
+  aspect-ratio: 1;
+  height: 200px;
+  color: black;
+  background-color: #E0EA87;
+  rotate: -10deg;
+}
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
