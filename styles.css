@@ -78,9 +78,9 @@
   transform: rotate(-1.5deg);
 }
 #Mario {
-  aspect-ratio:1/1;
+  aspect-ratio: 1/1;
   height: 200px;
-  background-color: #0089BA;
+  background-color: #0089ba;
   rotate: 5deg;
 }
 #Mario h3 {
@@ -90,10 +90,10 @@
 /* SELECTORS */
 /***************************************************/
 /* t Selector post-it styles here! ↓ */
-#dylan-power{
+#dylan-power {
   aspect-ratio: 1/1;
-  height:200px ;
-  background-color: #E0EA87;
+  height: 200px;
+  background-color: #e0ea87;
   rotate: 10deg;
 }
 h3 {
@@ -101,7 +101,7 @@ h3 {
 }
 /* Put Selector post-it styles here! ↓ */
 .post-it#ryan {
-  background-color: #E0EA87;
+  background-color: #e0ea87;
   rotate: -5deg;
   height: 200px;
   width: 200px;
@@ -111,63 +111,58 @@ h3 {
   font-weight: bold;
 }
 
-
 #peterskerritt {
   aspect-ratio: 1;
   height: 200px;
   color: black;
-  background-color: #E0EA87;
+  background-color: #e0ea87;
   rotate: -10deg;
 }
 
 #phoebe-Maas {
-  background-color: #E0EA87;
+  background-color: #e0ea87;
   width: 200px;
   height: 200px;
   transform: rotate(-4deg);
 }
 
-
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
- #tommy-graham {
+#tommy-graham {
   aspect-ratio: 1 / 1;
   height: 200px;
-background-color: #FF6F91;
-font-weight: Bold;
-transform: rotate(10deg)
+  background-color: #ff6f91;
+  font-weight: Bold;
+  transform: rotate(10deg);
+}
 
 #lisa-wyers {
-  background-color: #FF6F91;
+  background-color: #ff6f91;
   height: 200px;
   aspect-ratio: 1/1;
-  font-weight:bold;
-}
-
-}
-
-li#meera.post-it{
-  background-color:#ff6f91;
-  transform:rotate(9deg);
-  
-  height:200px;
-  width:200px;
-  aspect-ratio:1/1;
-
-}
-
-.post-it #meera h3{
   font-weight: bold;
-  
 }
 
-#richard-hallam{
-  background-color:#ff6f91;
-  height:200px;
-  width:200px;
-  transform: rotate(-5deg)
+li#meera.post-it {
+  background-color: #ff6f91;
+  transform: rotate(9deg);
+
+  height: 200px;
+  width: 200px;
+  aspect-ratio: 1/1;
+}
+
+.post-it #meera h3 {
+  font-weight: bold;
+}
+
+#richard-hallam {
+  background-color: #ff6f91;
+  height: 200px;
+  width: 200px;
+  transform: rotate(-5deg);
 }
 /***************************************************/
 /* LAYOUTS */
@@ -177,7 +172,7 @@ li#meera.post-it{
   box-sizing: border-box;
   width: 200px;
   height: 200px;
-  background-color: #0089BA;
+  background-color: #0089ba;
   transform: rotate(-10deg);
 }
 
