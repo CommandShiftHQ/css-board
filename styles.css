@@ -139,6 +139,13 @@ background-color: #FF6F91;
 font-weight: Bold;
 transform: rotate(10deg)
 
+#lisa-wyers {
+  background-color: #FF6F91;
+  height: 200px;
+  aspect-ratio: 1/1;
+  font-weight:bold;
+}
+
 }
 
 li#meera.post-it{
