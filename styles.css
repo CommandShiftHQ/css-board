@@ -87,6 +87,14 @@
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
+ #tommy-graham {
+  aspect-ratio: 1 / 1;
+  height: 200px;
+background-color: #FF6F91;
+font-weight: Bold;
+transform: rotate(10deg)
+
+}
 
 /***************************************************/
 /* LAYOUTS */
