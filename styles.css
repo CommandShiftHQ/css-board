@@ -77,8 +77,8 @@
 .dashboard--layouts h2 {
   transform: rotate(-1.5deg);
 }
-.post-it {
-  aspect-ratio: 1;1;
+#Mario {
+  aspect-ratio:1/1;
   height: 200px;
   background-color: #0089BA;
   rotate: 5deg;
