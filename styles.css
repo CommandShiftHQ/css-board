@@ -125,6 +125,21 @@ h3 {
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+li#meera.post-it{
+  background-color:#ff6f91;
+  transform:rotate(9deg);
+  
+  height:200px;
+  width:200px;
+  aspect-ratio:1/1;
+
+}
+
+.post-it #meera h3{
+  font-weight: bold;
+  
+}
+
 #richard-hallam{
   background-color:#ff6f91;
   height:200px;
