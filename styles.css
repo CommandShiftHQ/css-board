@@ -16,9 +16,6 @@
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
-  aspect-ratio: 1/1; /* 1  added by me*/
-  height: 200px; /* 2  added by me*/
-  transform: rotate(-1.5deg); /* 5 added by me*/
 }
 
 .dashboard-frame {
@@ -81,21 +78,12 @@
   transform: rotate(-1.5deg);
 }
 
-.dashboard--layouts .post-it {
-  /* 3 added by me*/
-  background-color: #0089ba;
-}
-
-h3 {
-  /* 4 added by me */
-  font-weight: bold;
-}
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 .post-it#ryan {
-  background-color: #E0EA87;
+  background-color: #e0ea87;
   rotate: -5deg;
   height: 200px;
   width: 200px;
@@ -105,33 +93,39 @@ h3 {
   font-weight: bold;
 }
 
-
 #peterskerritt {
   aspect-ratio: 1;
   height: 200px;
   color: black;
-  background-color: #E0EA87;
+  background-color: #e0ea87;
   rotate: -10deg;
 }
 
 #phoebe-Maas {
-  background-color: #E0EA87;
+  background-color: #e0ea87;
   width: 200px;
   height: 200px;
   transform: rotate(-4deg);
 }
 
+#wasiu-bello {
+  /* 1 added by me */
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #0089ba;
+  transform: rotate(-1.5deg);
+}
 
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
-#richard-hallam{
-  background-color:#ff6f91;
-  height:200px;
-  width:200px;
-  transform: rotate(-5deg)
+#richard-hallam {
+  background-color: #ff6f91;
+  height: 200px;
+  width: 200px;
+  transform: rotate(-5deg);
 }
 /***************************************************/
 /* LAYOUTS */
@@ -141,7 +135,7 @@ h3 {
   box-sizing: border-box;
   width: 200px;
   height: 200px;
-  background-color: #0089BA;
+  background-color: #0089ba;
   transform: rotate(-10deg);
 }
 
