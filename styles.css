@@ -109,6 +109,17 @@
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+#tim-bracey {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  background-color: #0089BA;
+  transform: rotate(-10deg);
+}
+
+#tim-bracey h3 {
+  font-weight: bold;
+}
 
 @media screen and (min-width: 768px) {
   .dashboard-area {
