@@ -16,6 +16,9 @@
   text-align: center;
   padding: 10px;
   margin-bottom: 20px;
+  aspect-ratio: 1/1; /* 1  added by me*/
+  height: 200px; /* 2  added by me*/
+  transform: rotate(-1.5deg); /* 5 added by me*/
 }
 
 .dashboard-frame {
@@ -78,6 +81,15 @@
   transform: rotate(-1.5deg);
 }
 
+.dashboard--layouts .post-it {
+  /* 3 added by me*/
+  background-color: #0089ba;
+}
+
+h3 {
+  /* 4 added by me */
+  font-weight: bold;
+}
 /***************************************************/
 /* SELECTORS */
 /***************************************************/
