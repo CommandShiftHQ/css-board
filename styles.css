@@ -88,6 +88,12 @@
 /***************************************************/
 /* Put Property post-it styles here! ↓ */
 
+#richard-hallam{
+  background-color:#ff6f91;
+  height:200px;
+  width:200px;
+  transform: rotate(-5deg)
+}
 /***************************************************/
 /* LAYOUTS */
 /***************************************************/
