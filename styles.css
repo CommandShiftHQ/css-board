@@ -132,6 +132,10 @@
   width: 200px;
   aspect-ratio: 1 / 1;
 }
+#Border-Radius h3 {
+  font-weight: bold;
+}
+
 #abi {
   background-color: #ff6f91;
   rotate: -5deg;
