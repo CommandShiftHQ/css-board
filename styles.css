@@ -83,6 +83,17 @@
 /***************************************************/
 /* Put Selector post-it styles here! ↓ */
 
+#ashdaniels {
+  aspect-ratio: 1/1;
+  height: 200px;
+  background-color: #e0ea87;
+  transform: rotate(-2.5deg)
+}
+
+#ashdaniels h3 {
+  font-weight: bold;
+}
+
 /***************************************************/
 /* PROPERTIES */
 /***************************************************/
