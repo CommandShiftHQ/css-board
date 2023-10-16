@@ -92,6 +92,21 @@
 /* LAYOUTS */
 /***************************************************/
 /* Put Layout post-it styles here! ↓ */
+#kevin-greenup {
+aspect-ratio: 1;
+height: 200px;
+background-color: #0089ba;
+transform: rotate(-10deg);
+
+
+}
+#kevin-greenup h3 {
+  font-weight: bold;
+  margin-bottom: 10;
+
+}
+
+
 
 @media screen and (min-width: 768px) {
   .dashboard-area {
